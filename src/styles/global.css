@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font);
+}
+
+p {
+    color: var(--color-neutral-grey);
+    font-size: var(--font-body-1-size);
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--color-neutral-black);
+    line-height: 80px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--color-neutral-d_grey);
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--color-neutral-d_grey);
+}
+
+.btn-primary {
+    text-align: center;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    color: var(--color-neutral-white);
+    padding: 16px 32px;
+    border-width: 2px;
+    cursor: pointer;
+}
+
+.btn-secundary {
+    color: var(--color-primary);
+    background-color: transparent;
+    padding: 16px 32px;
+    border-style: solid;
+    border-color: var(--color-primary);
+    border-width: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+:root {
+    --color-neutral-black: #000001;
+    --color-neutral-grey: #999999;
+    --color-neutral-L_grey: #89939E;
+    --color-neutral-white: #ffffff;
+    --color-neutral-bg_overlay: #FAFAFA;
+
+    --color-primary: #00A000;
+    --color-secondary: #263238;
+    --color-info: #2194f3;
+
+    /* --color-shade1: #43A046;
+    --color-shade2: #388E3B;
+    --color-shade3: #237D31;
+    --color-shade4: #1B5E1F;
+    --color-shade5: #103E13; 
+    
+    --color-tint1: #66BB69;
+    --color-tint2: #81C784;
+    --color-tint3: #A5D6A7;
+    --color-tint4: #C8E6C9;
+    --color-tint5: #E8F5E9;
+
+    --color-action-warning: #FBC02D;
+    --color-action-error: #E53835;
+    --color-action-success: #2E7D31; */
+
+    --font: 'Gilroy';
+
+    --font-family: "Gilroy";
+    --font-headline-1-size: 64px;
+    --font-headline-1-weight: 600;
+
+    --font-headline-2-size: 36px;
+    --font-headline-2-weight: 600;
+
+    --font-headline-3-size: 28px;
+    --font-headline-3-weight: 700;
+
+    --font-headline-4-weight: 600;
+    --font-headline-4-size: 20px;
+
+    --font-body-1-size: 18px;
+    --font-body-1-weight-regular: 400;
+    --font-body-1-weight-medium: 500;
+
+    --font-body-2-size: 16px;
+    --font-body-2-weight-regular: 400;
+    --font-body-2-weight-medium: 500;
+
+    --font-body-3-size: 14px;
+    --font-body-3-weight-regular: 400;
+    --font-body-3-weight-medium: 500;
+
+    --font-body-4-size: 12px;
+    --font-body-4-weight-regular: 400;
+    --font-body-4-weight-medium: 500;
+
+}
