@@ -263,32 +263,79 @@ p {
 /* ---------------------- FIM SUBSCRIBE -----------------------*/
 /* ---------------------- FOOTER -----------------------*/
 
-.footer {
+footer {
+    display: flex;
     background-color: var(--color-primary);
-    
+    padding: 100px 0px;
+    justify-content: space-around;
 }
 
-.footer-logo{
+.footer-logo {
     padding-bottom: 26px;
-}
-.footer-content{
-    padding: 100px 0 0 100px;
 
 }
+
+
 .footer-socials {
     display: flex;
     gap: 16px;
 }
 
-.social-icon{
+.social-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 21px;
-    padding: 8px;
+    border-radius: 20px;
+    padding: 8px 10px 8px 10px;
     border-radius: 100%;
     border: 2px solid var(--color-neutral-white);
- 
+}
+
+.footer-navigation {
+    display: flex;
+    gap: 260px;
+
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-navigation h2 {
+    color: var(--color-neutral-white);
+    font-size: var(--font-body-1-size);
+
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: var(--font-body-1-size);
+    font-weight: 300;
+}
+
+.footer-links li {
+    list-style-type: none;
+
+}
+
+.footer-item {
+    text-decoration: none;
+    color: var(--color-neutral-white);
+
+}
+
+.reserved {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    color: var(--color-neutral-white);
+    margin-top: 1px;
+    padding: 16px 0px 80px 0px;
 }
 
 /* ---------------------- FIM FOOTER -----------------------*/
